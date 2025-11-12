@@ -7,7 +7,8 @@ from typing import Any, Dict, List
 from dotenv import load_dotenv
 
 # Import Langchain and other necessary modules here
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_core.agents import AgentExecutor
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from langchain_openai import OpenAIEmbeddings
