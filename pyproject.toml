@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "dotenv>=0.9.9",
+    "gradio>=5.49.1",
     "ipython>=9.7.0",
     "langchain>=1.0.5",
     "langchain-chroma>=1.0.0",
